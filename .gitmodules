@@ -6,3 +6,7 @@
 	path = docs
 	url = git@github.com:oricomp/docs.git
 	branch = main
+[submodule "planning"]
+	path = planning
+	url = git@github.com:oricomp/planning.git
+	branch = main
