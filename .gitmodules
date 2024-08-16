@@ -2,3 +2,7 @@
 	path = .github
 	url = git@github.com:oricomp/.github.git
 	branch = main
+[submodule "docs"]
+	path = docs
+	url = git@github.com:oricomp/docs.git
+	branch = main
