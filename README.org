@@ -1,0 +1,30 @@
+#+title: OriComp
+#+auto_tangle: nil
+
+This repo is the root for everything *OriComp* related.
+
+* Installation
+
+Clone this repo. Then update all submodules.
+
+#+begin_src shell
+git submodule init && git submodule update --recursive
+#+end_src
+
+* Why?
+
+Different repos are used because having the entire project in one repository would
+be ridiculous, especially for parts of the project that could be used independently
+from the project itself.
+
+There is one root repository because it is inevitable that one repository has to
+submodule another, which can lead to confusion regarding the organization of the
+repos. The root repository solves this problem by giving a starting point that
+can be used to access all other repos in an organized matter.
+
+* Submodules
+
+ - [[https://github.com/oricomp/.github][.github]] - All GitHub related files
+ - [[https://github.com/oricomp/docs][docs]] - All documentation for *OriComp*, documentation can also be found in each
+   repository
+ - [[https://github.com/oricomp/planning][planning]] - All planning for *OriComp*
