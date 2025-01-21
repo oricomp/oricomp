@@ -8,3 +8,4 @@ if [ "$CURR_DIR" != "oricomp" ]; then
 fi
 
 git clone git@github.com:oricomp/.github.git || true
+git clone git@github.com:oricomp/docs.git || true
