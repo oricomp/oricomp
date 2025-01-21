@@ -1,0 +1,12 @@
+#+title: OriComp
+#+auto_tangle: nil
+
+This repository contains the script for setting up the *OriComp* "environment". The project is split into many different repositories in order to keep commit histories somewhat reasonable.
+
+Some of the scripts may rely on certain things in one repository being in a certain place relative to a different repository, so having an established pattern in important.
+
+* Installation
+
+Download the relevant install script and run it. Cloning this repository is optional.
+
+NOTE: It is assumed that the operating system is Linux. There are no plans for supporting any other operating systems.
