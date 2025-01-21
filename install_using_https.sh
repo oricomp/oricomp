@@ -7,4 +7,4 @@ if [ "$CURR_DIR" != "oricomp" ]; then
     cd oricomp || exit
 fi
 
-git clone https://github.com/oricomp/.github.git
+git clone https://github.com/oricomp/.github.git || true
